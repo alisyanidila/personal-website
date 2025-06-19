@@ -67,7 +67,7 @@ function ProfileCard() {
             <div className="flex items-center mb-6">
               <div className="w-16 h-16 rounded-full mr-4 overflow-hidden">
                 <img
-                  src="/src/assets/img/alisya.jpg"
+                  src="/assets/img/alisya.jpg"
                   alt="Alisya Nidila"
                   className="w-full h-full object-cover"
                 />
@@ -106,7 +106,7 @@ function ProfileCard() {
                 className="flex-1 bg-gray-700 hover:bg-gray-600 rounded-2xl p-3 flex items-center justify-center font-medium transition-all duration-200 hover:scale-105"
               >
                 <img
-                  src="/src/assets/icons/arrow-down-on-square.svg"
+                  src="/assets/icons/arrow-down-on-square.svg"
                   alt="Download"
                   width={20}
                   height={20}
@@ -119,7 +119,7 @@ function ProfileCard() {
                 className="flex-1 bg-gray-700 hover:bg-gray-600 rounded-2xl p-3 flex items-center justify-center font-medium transition-all duration-200 hover:scale-105"
               >
                 <img
-                  src="/src/assets/icons/clipboard-document-list.svg"
+                  src="/assets/icons/clipboard-document-list.svg"
                   alt="Copy"
                   width={20}
                   height={20}
@@ -149,7 +149,7 @@ function ProfileCard() {
                 className="flex-1 bg-gray-700 hover:bg-gray-600 rounded-2xl p-3 flex items-center justify-center font-medium transition-all duration-200 hover:scale-105"
               >
                 <img
-                  src="/src/assets/icons/github.svg"
+                  src="/assets/icons/github.svg"
                   alt="GitHub"
                   width={20}
                   height={20}
@@ -167,7 +167,7 @@ function ProfileCard() {
           >
             <div className="flex items-center justify-center">
               <img
-                src="/src/assets/icons/code.svg"
+                src="/assets/icons/code.svg"
                 alt="Code"
                 width={20}
                 height={20}
