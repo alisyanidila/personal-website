@@ -1,5 +1,3 @@
-// src/components/Dock.jsx
-import React from 'react';
 import { Dock } from 'react-osx-dock';
 
 const DockComponent = () => {

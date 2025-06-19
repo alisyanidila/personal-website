@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 
 function ProfileCard() {
   const [emailCopied, setEmailCopied] = useState(false);
@@ -14,7 +14,7 @@ function ProfileCard() {
   }, []);
 
   // Format time to 12-hour format with AM/PM
-  const formatTime = (date) => {
+  const formatTime = (date: Date) => {
     return date.toLocaleTimeString('en-US', {
       hour: 'numeric',
       minute: '2-digit',
